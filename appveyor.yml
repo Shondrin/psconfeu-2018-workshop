@@ -7,7 +7,7 @@ install:
 
 build_script:
     - ps: |
-        New-ExternalHelp -Path /.docs -OutputPath ./en-US -Force
+        New-ExternalHelp -Path ./docs -OutputPath ./en-US -Force
 
 test_script:
     - ps: |
